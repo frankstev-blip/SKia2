@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: skia-ev9-trip-optimizer
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    healthCheckPath: /

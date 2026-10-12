@@ -1,0 +1,4 @@
+SKia EV9 trip optimizer unit tests
+
+All 8 tests passed.
+Charging curve test: 10-80% in approximately 23.93 minutes using the configured approximate curve.
